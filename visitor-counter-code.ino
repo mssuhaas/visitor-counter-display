@@ -22,8 +22,8 @@
 // Turn on debug statements to the serial output
 #define DEBUG 0
 
-const char *ssid = "SCRC_LAB_IOT";
-const char *password = "Scrciiith@123";
+const char *ssid = "";
+const char *password = "";
 
 #if DEBUG
 #define PRINT(s, x) { Serial.print(F(s)); Serial.print(x); }
